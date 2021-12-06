@@ -10,7 +10,7 @@ showNotes();
 
 function addNote(e) {
   // store to local storage
-  let userText = userInput.value;
+  let userText = userInput.value.toLowerCase();
   let notes = localStorage.getItem("notes");
 
   if (notes == null) {
