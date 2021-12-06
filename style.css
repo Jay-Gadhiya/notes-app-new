@@ -2,4 +2,39 @@
     color: white;
 }
 
+#searchSymbl{
+    color: white;
+    background-color: white;
+}
 
+#icon{
+    font-size: x-large;
+    color: #ffffff;
+    margin-right: 0.4rem;
+    margin-top: 0.4rem;
+}
+
+#moon {
+    color: white;
+}
+
+#mo {
+    background-color: black;
+}
+
+.fa-moon:before {
+    content: "\f186";
+    font-size: x-large;
+    margin-left: 2rem;
+    cursor: pointer;
+    padding-top: 0.4rem;
+}
+
+.fa-sun:before {
+    content: "\f185";
+    color: white;
+    font-size: xx-large;
+    margin-left: 2rem;
+    cursor: pointer;
+    padding-top: 0.4rem
+}
